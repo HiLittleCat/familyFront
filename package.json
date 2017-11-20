@@ -1,0 +1,49 @@
+{
+  "name": "familyfront",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "moment": "^2.19.1",
+    "native-base": "^2.3.2",
+    "prop-types": "^15.6.0",
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.48.4",
+    "react-native-action-button": "^2.8.0",
+    "react-native-button": "^2.1.0",
+    "react-native-deprecated-custom-components": "^0.1.1",
+    "react-native-dropdownalert": "^3.1.2",
+    "react-native-flexi-radio-button": "^0.2.1",
+    "react-native-foldview": "^1.1.1",
+    "react-native-modal-dropdown": "^0.5.0",
+    "react-native-navbar": "1.6.0",
+    "react-native-spinkit": "1.0.2",
+    "react-native-swipeout": "^2.2.2",
+    "react-native-tab-navigator": "^0.3.4",
+    "react-native-textinput-effects": "^0.4.0",
+    "react-native-vector-icons": "^4.4.2",
+    "react-native-zss-rich-text-editor": "^1.0.2",
+    "react-navigation": "^1.0.0-beta.13",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-persist": "4.4.0",
+    "redux-thunk": "2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.0.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest": "20.0.4",
+    "jest-expo": "^21.0.2",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "redux-devtools": "^3.4.0"
+  }
+}
